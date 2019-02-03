@@ -1,0 +1,47 @@
+.skip-here {
+        position: absolute;
+        top: -1000px;
+        left: -1000px;
+        height: 1px;
+        width: 1px;
+        text-align: left;
+        overflow: hidden;
+    }
+
+    a.skip-here:active,
+    a.skip-here:focus,
+    a.skip-here:hover {
+        left: 0;
+        top: 0;
+        width: auto;
+        height: auto;
+        overflow: visible;
+    }
+
+body{
+    background-color:#FFFFFF;
+    font-family: Arial;
+}
+
+li{
+	text-decoration: none;
+	display:inline;
+	background-color: white;
+	color: green;
+}
+
+a{
+  color:#000000;
+  font-family: Arial;
+
+}
+
+nav a{
+	text-decoration: none;
+  }
+
+.current{
+  text-decoration: line-through;
+  text-transform: uppercase;
+
+}
